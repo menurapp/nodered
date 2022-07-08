@@ -650,18 +650,6 @@ cors@2.8.5:
     object-assign "^4"
     vary "^1"
 
-cron-parser@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/cron-parser/-/cron-parser-1.1.1.tgz#f53c8f5b8ee4890ad7f4da1b6f40aaab0859730f"
-  integrity sha512-dSIgNUXWP3DPECCV5wkR1CAr4dTGwvJwl4HBQdddT0w4ETvqJFRSst0+33giKhMj4Ov0o1Ks6/i/rFNEzc4tiw==
-
-cron@^1.1.0:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/cron/-/cron-1.8.3.tgz#2a61d7b15848716885834ec56ac072f4b9744ebd"
-  integrity sha512-JYR/QZFklJCIPndBLfd/2nU1nSlCMrUdtQ2mGLXSVM/qqqEK7DOrFR0gsEiyeqs0PdWrs0ve1ggH4V7XksDwXg==
-  dependencies:
-    luxon "^1.23.x"
-
 cronosjs@1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/cronosjs/-/cronosjs-1.7.1.tgz#bf3571ec313e5227fc7c0e9fc7a53e830dfba0f3"
@@ -1311,11 +1299,6 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-luxon@^1.23.x:
-  version "1.28.0"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.28.0.tgz#e7f96daad3938c06a62de0fb027115d251251fbf"
-  integrity sha512-TfTiyvZhwBYM/7QdAVDh+7dBTBA29v4ik0Ce9zda3Mnf8on1S5KJI8P2jKFZ8+5C0jhmr0KwJEO/Wdpm0VeWJQ==
-
 make-dir@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
@@ -1553,14 +1536,6 @@ node-red-admin@^2.2.3:
     read "^1.0.7"
   optionalDependencies:
     bcrypt "5.0.1"
-
-node-red-contrib-cron@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/node-red-contrib-cron/-/node-red-contrib-cron-0.0.4.tgz#576b6c2b3548999ec1fc054a2b6126ce60a60f35"
-  integrity sha512-0dI/gPQYhz2YEyxJI+ZoC95yF4TXqiZ9Q11JSVdNK8oQys+J2vzi5cMds3KAaTE6SBhAYoDU4vvlCGEF393x2A==
-  dependencies:
-    cron "^1.1.0"
-    cron-parser "^1.1.0"
 
 node-red@^2.2.2:
   version "2.2.2"
