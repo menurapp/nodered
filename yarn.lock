@@ -982,11 +982,6 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
-future@2.x:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/future/-/future-2.3.1.tgz#2d327e0611dd56fac7112d057c799c485ec23be9"
-  integrity sha512-VUHZhrdSGrSro2V2hJZD4ZalTUk3RYhOvaVjsu9N7fC7O1rmKO2jWO43JliA5FMnoi97wMAtXClo5QpJ71rExg==
-
 gauge@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-3.0.2.tgz#03bf4441c044383908bcfa0656ad91803259b395"
@@ -1296,13 +1291,6 @@ lodash@^4.17.21:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-loop@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/loop/-/loop-2.1.2.tgz#85ab46e639921ab264bfe41286ea5ce51a873dd3"
-  integrity sha512-uesLTJA2O/LxUmQrrJ4wYOCsX9nfhxHt1UJtiukU6f6Q4E8AsM9WpRFx//2JAlVxK8mf9MA4xwZMHAXBzYFhmQ==
-  dependencies:
-    future "2.x"
-
 lowercase-keys@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
@@ -1578,13 +1566,6 @@ node-red-contrib-loop@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/node-red-contrib-loop/-/node-red-contrib-loop-1.0.1.tgz#f70905fe9bd3ab83d550bc20e71db92ecba2eae7"
   integrity sha512-pnfBTqY213ZF3QME02NsJqKmY70kOOFjCEpCDtKiPYOi3U0b9saq2C24xiuePYS6Oqy9K6zXn+fdAV4xM6VJkw==
-
-node-red-contrib-looptimer@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/node-red-contrib-looptimer/-/node-red-contrib-looptimer-0.0.8.tgz#525b9b9c8f50f19fa50c2014d0ffed8269901e05"
-  integrity sha512-7uXX59apFXAFIJgSc7hS19jVw5Cyd1tpvV0PJJKv5fw7+gGdIq2JGADWzXmO+CqCTzULQSzlTq7sN3UKgucDAA==
-  dependencies:
-    loop "2.1.2"
 
 node-red@^2.2.2:
   version "2.2.2"
