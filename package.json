@@ -3,6 +3,7 @@
     "version": "0.0.2",
     "dependencies": {
         "axios": "^0.27.2",
+        "chartjs-plugin-zoom": "^1.2.1",
         "feedparser": "^2.2.10",
         "lodash": "^4.17.21",
         "nano": "^10.0.0",
