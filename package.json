@@ -8,6 +8,7 @@
         "lodash": "^4.17.21",
         "nano": "^10.0.0",
         "node-red": "^2.2.2",
+        "node-red-contrib-alexa-remote2-applestrudel": "^5.0.20",
         "node-red-contrib-cron": "^0.0.4",
         "node-red-contrib-loop": "^1.0.1",
         "node-red-contrib-remote": "^1.4.0",
